@@ -106,3 +106,23 @@ a:active { /* selected link */
 .button:focus {
   border: 2px solid red;
 }
+
+.button.contact {
+  background-color: transparent;
+  color: #ff7f50;
+  text-transform: uppercase;
+  border: 2px solid #ff7f50;
+}
+
+.button.contact:hover {
+  background-color: #ff7f50;
+  color: #ffffff;
+}
+
+.button.contact:active {
+  background-color: darkblue;
+}
+
+.button.contact:focus {
+  border: 2px solid red;
+}
