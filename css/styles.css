@@ -115,6 +115,21 @@ nav > ul > li > a {
   cursor: pointer;
 }
 
+nav > ul > li > a:visited {
+  color: #143a52;
+}
+
+nav > ul > li > a:hover,
+nav > ul > li > a:focus {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+nav > ul > li > a:active {
+  color: #874c2d;
+}
+
+
 .button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
