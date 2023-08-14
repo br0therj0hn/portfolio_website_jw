@@ -83,6 +83,10 @@ a:active {
   color: green;
 }
 
+.logo {
+  max-width: 150px;
+}
+
 .container {
   margin: 0 16px;
 }
