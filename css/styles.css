@@ -8,45 +8,49 @@ Fifth Color (Soft Yellow): #F9FBB2;
 */
 
 body {
-    background-color: #ffffff;
-    font-family: 'Red Hat Text', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.75;
-    color: #2a2a2a;
+  background-color: #ffffff;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.75;
+  color: #2a2a2a;
 }
 
-h1, h2, h3, h4 {
-    line-height: 1.4;
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.4;
 }
 
 h1 {
-    font-size: 1.618em;
-    font-weight: 700;
-  }
-  
-  h2 {
-    font-size: 1.618em;
-    font-weight: 500;
-  }
-  
-  h3 {
-    font-size: 1em;
-    font-weight: 400;
-  }
-  h4 {
-    font-size: 0.618em;
-    font-weight: 400;
-  }
+  font-size: 1.618em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.618em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 0.618em;
+  font-weight: 400;
+}
 
 div {
-    color: #2a2a2a;
-    font-size: 20px;
+  color: #2a2a2a;
+  font-size: 20px;
 }
 
 p {
-    color: #2a2a2a;
-    font-size: 20px;
+  color: #2a2a2a;
+  font-size: 20px;
 }
 
 img {
@@ -55,4 +59,23 @@ img {
 
 iframe {
   width: 100%;
+}
+
+a {
+  color: blue;
+  text-decoration: none; /* No underlining */
+}
+
+a:visited { /* visited link */
+  color: blueviolet;
+}
+
+a:hover,
+a:focus {
+  color: purple;
+  text-decoration: underline;
+}
+
+a:active { /* selected link */
+  color: green;
 }
