@@ -81,8 +81,6 @@ a:active { /* selected link */
 }
 
 
-
-
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: white;
@@ -90,7 +88,8 @@ a:active { /* selected link */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid black; /* width of the border, type, color */
+  border: 2px solid #2a2a2a;
+  border-bottom: 2px solid #2a2a2a; /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
