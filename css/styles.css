@@ -93,8 +93,26 @@ a:active {
   margin-top: 20px;
 }
 
+/* Layout styling */
+
 .container {
   margin: 0 16px;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav > ul > li > a {
+  padding: 0 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #143a52;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
 }
 
 .button {
