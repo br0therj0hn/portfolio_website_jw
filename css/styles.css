@@ -129,6 +129,13 @@ nav > ul > li > a:active {
   color: #874c2d;
 }
 
+#hero,
+#contact {
+    background-color: #E3E9C2;
+    padding: 16px 0;
+    text-align: center; /* Centers text */
+}
+
 .button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
