@@ -185,3 +185,24 @@ nav > ul > li > a:active {
 .button.contact:focus {
   border: 2px solid red;
 }
+
+#goTop {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 8px, 0 8px;
+  margin: 24px 0 40px;
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #143a52;
+}
+
+#goTop {
+  transition: all 0.5s ease 0s;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+#goTop:hover {
+  opacity: 1;
+}
