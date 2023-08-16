@@ -150,6 +150,20 @@ nav > ul > li > a:active {
 
 }
 
+#work .row {
+  padding-bottom: 28px;
+  border-bottom: 1px solid #143a52;
+}
+
+#work h2,
+.my-story h2,
+#project-background h2,
+#project-process h2 {
+    text-align: center;
+    padding: 8px 0;
+    margin: 32px 0 16px 0;
+}
+
 .button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
