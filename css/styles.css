@@ -207,6 +207,75 @@ nav > ul > li > a:active {
   opacity: 1;
 }
 
+
+
+header {
+  text-align: unset;
+  padding: 20px 0 13px;
+}
+nav {
+width: auto;
+float: right;
+margin-top: -65px;
+}
+body {
+  font-size: 18px;
+}
+.col-md-6 {
+  width: 50%;
+  margin-top: -20px;
+}
+.col-md-6-project {
+  width: 50%;
+  margin: 0 0 32px;
+}
+.col-md-12 {
+  width: 100%;
+}
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+#work h3 {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+#about h4,
+#project-background h4 {
+  margin-top: 0;
+}
+#about h2 {
+  margin-top: 16px;
+}
+#about img {
+  max-width: 450px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#project-title img {
+  max-width: 750px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.skills > ul {
+  margin: 0;
+}
+nav > ul > li {
+  padding: 0 16px;
+}
+.social-icon {
+  width: 36px;
+}
+.learnings p span {
+  padding: 0;
+}
+.logo {
+  max-width: 250px;
+}
 nav > ul > li {
   display: inline-block;
   padding: 0 10px;
@@ -235,4 +304,9 @@ div.pullUp a:before {
 }
 div.pullUp a:hover:before {
   height: 100%;
+}
+.skills-tools h2 {
+  text-align: center;
+  padding: 8px 0;
+  margin: 32px 0 -12px 0;
 }
