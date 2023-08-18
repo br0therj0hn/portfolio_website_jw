@@ -24,22 +24,22 @@ h4 {
 }
 
 h1 {
-  font-size: 1.618em;
+  font-size: 5vw;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 1.618em;
+  font-size: 5vw;
   font-weight: 500;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 3vw;
   font-weight: 400;
 }
 
 h4 {
-  font-size: 0.618em;
+  font-size: 1vw;
   font-weight: 400;
 }
 
@@ -50,7 +50,7 @@ div {
 
 p {
   color: #2a2a2a;
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 img {
