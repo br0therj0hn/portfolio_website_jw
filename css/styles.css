@@ -102,7 +102,7 @@ a:active {
 /* Layout styling */
 
 .container {
-  margin: 0 16px;
+  margin: 16px;
 }
 
 .container.hero {
@@ -112,6 +112,11 @@ a:active {
 
 .row {
   column-count: 2;
+  margin: 8px;
+}
+
+.card {             
+  padding: 5px;    
 }
 
 .navigate {
