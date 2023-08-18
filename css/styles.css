@@ -110,6 +110,11 @@ a:active {
   text-align: center;
 }
 
+.container.card {
+  position:sticky;
+  
+}
+
 .row {
   column-count: 2;
   margin: 8px;
