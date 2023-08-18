@@ -105,6 +105,11 @@ a:active {
   margin: 0 16px;
 }
 
+.container.hero {
+  margin: 16px;
+  text-align: center;
+}
+
 .row {
   column-count: 2;
 }
