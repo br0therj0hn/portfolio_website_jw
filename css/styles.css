@@ -161,3 +161,15 @@ nav > ul > li > a:active {
   background-color: #A5ABAF;
   color: #2a2a2a;
 }
+
+.button.top {
+  background-color: transparent;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  border: 2px solid #143a52;
+}
+
+.button.top:hover {
+  background-color: #A5ABAF;
+  color: #2a2a2a;
+}
