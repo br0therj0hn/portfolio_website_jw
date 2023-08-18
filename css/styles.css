@@ -61,21 +61,24 @@ iframe {
   width: 100%;
 }
 
+
+/* LINKS */
+
 a {
   color: blue;
   text-decoration: none;
   /* No underlining */
 }
 
-a:visited {
-  /* visited link */
-  color: blueviolet;
-}
-
 a:hover,
 a:focus {
   color: purple;
   text-decoration: underline;
+}
+
+a:visited {
+  /* visited link */
+  color: blueviolet;
 }
 
 a:active {
@@ -130,6 +133,8 @@ nav > ul > li > a:active {
   color: #874c2d;
 }
 
+/* General Buttons */
+
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #A5ABAF;
@@ -137,6 +142,7 @@ nav > ul > li > a:active {
   font-weight: 400;
   padding: 5px 20px;
   border-radius: 10px;
+  transition: 0.2s opacity; 
 }
 
 .button:hover {
