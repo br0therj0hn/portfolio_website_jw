@@ -111,8 +111,7 @@ a:active {
 }
 
 .container.card {
-  position:sticky;
-  
+  margin: auto;
 }
 
 .row {
