@@ -86,6 +86,8 @@ a:active {
   color: green;
 }
 
+/* custom logo sizing */
+
 .logo {
   max-width: 150px;
   height: auto;
