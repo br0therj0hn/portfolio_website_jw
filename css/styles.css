@@ -105,6 +105,10 @@ a:active {
   margin: 0 16px;
 }
 
+.row {
+  column-count: 2;
+}
+
 nav > ul {
   list-style-type: none;
   padding: 0;
