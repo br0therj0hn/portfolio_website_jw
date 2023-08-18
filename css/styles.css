@@ -128,3 +128,29 @@ nav > ul > li > a:focus {
 nav > ul > li > a:active {
   color: #874c2d;
 }
+
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #A5ABAF;
+  color: #2a2a2a; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #A5ABAF;
+  text-transform: uppercase;
+  border: 2px solid #A5ABAF;
+}
+
+.button.contact:hover {
+  background-color: #A5ABAF;
+  color: #2a2a2a;
+}
