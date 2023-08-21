@@ -98,10 +98,10 @@ a:active {
 .social-navbar {
   padding-top: 25px;
   width: 150px;
-  height: auto;
+  max-height: 1vw;
   column-width: auto;
   column-count: 3;
-  column-gap: auto;
+  column-gap: 10px;
 }
 
 
