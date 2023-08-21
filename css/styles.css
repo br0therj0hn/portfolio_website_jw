@@ -95,10 +95,13 @@ a:active {
   height: auto;
 }
 
-.social-icon {
-  display: inline-block;
-  width: 3vw;
-  margin-top: 20px;
+.social-navbar {
+  padding-top: 25px;
+  width: 150px;
+  height: auto;
+  column-width: auto;
+  column-count: 3;
+  column-gap: auto;
 }
 
 
