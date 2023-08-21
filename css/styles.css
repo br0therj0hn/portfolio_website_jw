@@ -64,6 +64,7 @@ iframe {
 
 /* LINKS */
 
+
 a {
   color: blue;
   text-decoration: none;
@@ -96,9 +97,10 @@ a:active {
 
 .social-icon {
   display: inline-block;
-  width: 24px;
+  width: 3vw;
   margin-top: 20px;
 }
+
 
 /* Layout styling */
 
