@@ -97,9 +97,8 @@ a:active {
 
 .social-navbar {
   padding-top: 25px;
-  width: 150px;
-  max-height: 1vw;
-  column-width: auto;
+  max-width: 15vw;
+  max-height: 10vw;
   column-count: 3;
   column-gap: 10px;
 }
