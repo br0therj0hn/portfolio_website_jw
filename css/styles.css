@@ -153,7 +153,7 @@ a:active {
   text-align: center;
 }
 
-.nav-list { <!-- need to create a grid or system for this nav list so that it looks good small or wide screen -->
+.nav-list { /* create a grid system that works small or large width */
   display: grid;
 }
 
