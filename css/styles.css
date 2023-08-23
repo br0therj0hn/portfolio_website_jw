@@ -157,10 +157,6 @@ a:active {
   text-align: center;
 }
 
-.nav-list { /* create a grid system that works small or large width - this is for frugalfunds.html*/
-  display: grid;
-}
-
 nav > ul {
   list-style-type: none;
   padding: 0;
