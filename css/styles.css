@@ -25,17 +25,17 @@ h5 {
 }
 
 h1 {
-  font-size: 5vw;
+  font-size: 2vw;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 5vw;
+  font-size: 2vw;
   font-weight: 500;
 }
 
 h3 {
-  font-size: 3vw;
+  font-size: 2vw;
   font-weight: 400;
 }
 
@@ -45,22 +45,21 @@ h4 {
 }
 
 h5 {
-  font-size: 1.75vw;
+  font-size: 1vw;
   font-weight: 500;
 }
 
 li {
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 div {
   color: #2a2a2a;
-  font-size: 20px;
 }
 
 p {
   color: #2a2a2a;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 
 img {
@@ -78,7 +77,7 @@ iframe {
 a {
   color: blue;
   text-decoration: none;
-  font-size: 2vw;
+  font-size: 1.5vw;
   /* No underlining */
 }
 
@@ -194,7 +193,7 @@ nav > ul > li > a:active {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #A5ABAF;
   color: #2a2a2a; /* needed to override the default link color */
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight: 400;
   padding: 5px 10px;
   border-radius: 5px;
