@@ -157,6 +157,10 @@ a:active {
   text-align: center;
 }
 
+.skip {
+  column-count: 2;
+}
+
 nav > ul {
   list-style-type: none;
   padding: 0;
