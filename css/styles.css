@@ -11,8 +11,6 @@ header {   /*figure out why the container doesn't reach the top of the page.  */
   background-color: #A5ABAF;
   padding: 5px;
   border-bottom: 2px solid #81868a;
-  position: fixed;
-  width: 100vw; 
 }
 
 body {
