@@ -9,8 +9,9 @@ Fifth Color (Soft Yellow): #F9FBB2;
 
 header {   /*figure out why the container doesn't reach the top of the page.  */
   background-color: #A5ABAF;
-  padding: 5px;
+  padding: 10px 0;
   border-bottom: 2px solid #81868a;
+  text-align: center;
 }
 
 * {
@@ -110,8 +111,8 @@ a:active {
 /* custom logo sizing */
 
 .logo {
-  max-width: 25vw;
-  height: auto;
+  max-width: 250px;
+  text-align: center;
 }
 
 .social-navbar {
@@ -163,15 +164,10 @@ a:active {
   padding: 5px;    
 }
 
-.navigate {
-  column-count: 2;
-}
-
 .navbar {
   column-count: 3;
   column-gap: normal;
   column-rule: 2px solid #2a2a2a3a;
-  padding-top: 9%;
 }
 
 .links {
