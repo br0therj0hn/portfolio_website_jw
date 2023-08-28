@@ -127,6 +127,12 @@ a:active {
 
 #hero h1{
   text-align: center;
+  padding-top: 15px;
+}
+
+#hero p{
+  text-align: center;
+  padding-bottom: 15px;
 }
 
 .container {
