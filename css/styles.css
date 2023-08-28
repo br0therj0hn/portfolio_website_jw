@@ -29,6 +29,13 @@ body {
   color: #2a2a2a;
 }
 
+footer {
+  background-color: #A5ABAF;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -240,9 +247,9 @@ nav > ul > li > a:active {
 
 .button.contact {
   background-color: transparent;
-  color: #A5ABAF;
+  color: #ffffff;
   text-transform: uppercase;
-  border: 2px solid #A5ABAF;
+  border: 2px solid #ffffff;
 }
 
 .button.contact:hover {
