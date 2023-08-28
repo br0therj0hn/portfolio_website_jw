@@ -147,8 +147,7 @@ a:active {
 }
 
 .row {
-  column-count: 2;
-  margin: 8px;
+  margin: 25px 0;
 }
 
 .card {             
