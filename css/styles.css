@@ -125,13 +125,12 @@ a:active {
 
 /* Layout styling */
 
-.container {
-  margin: 0 16px;
+#hero h1{
+  text-align: center;
 }
 
-.container.hero {
-  margin: 16px;
-  text-align: center;
+.container {
+  margin: 0 16px;
 }
 
 .container.header {
@@ -144,6 +143,10 @@ a:active {
 
 .container.column {
   break-inside: avoid;
+}
+
+.container.top {
+  text-align: center;
 }
 
 #work .row {
