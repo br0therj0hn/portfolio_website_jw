@@ -146,7 +146,7 @@ a:active {
   break-inside: avoid;
 }
 
-.row {
+#work .row {
   margin: 25px 0;
 }
 
