@@ -124,15 +124,6 @@ a:active {
   text-align: center;
 }
 
-.social-navbar {
-  padding-top: 10px;
-  max-width: 15vw;
-  max-height: 10vw;
-  column-count: 3;
-  column-gap: 10px;
-}
-
-
 /* Layout styling */
 
 main {
