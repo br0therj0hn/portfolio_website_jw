@@ -7,10 +7,12 @@ Fourth Color (Soft Green): #E3E9C2;
 Fifth Color (Soft Yellow): #F9FBB2;
 */
 
-header {
+header {   /*figure out why the container doesn't reach the top of the page.  */
   background-color: #A5ABAF;
   padding: 5px;
   border-bottom: 2px solid #81868a;
+  position: fixed;
+  width: 100vw; 
 }
 
 body {
@@ -128,6 +130,10 @@ a:active {
 .container.hero {
   margin: 16px;
   text-align: center;
+}
+
+.container.header {
+  margin: 0px;
 }
 
 .container.card {
