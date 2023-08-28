@@ -10,7 +10,7 @@ Fifth Color (Soft Yellow): #F9FBB2;
 header { 
   background-color: #A5ABAF;
   padding: 10px 0;
-  border-bottom: 2px solid #81868a;
+  box-shadow: -5px 15px 30px rgba(0, 0, 0, 0.3);
   text-align: center;
   position: fixed;
   width: 100%;
