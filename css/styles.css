@@ -7,7 +7,7 @@ Fourth Color (Soft Green): #E3E9C2;
 Fifth Color (Soft Yellow): #F9FBB2;
 */
 
-header {   /*figure out why the container doesn't reach the top of the page.  */
+header { 
   background-color: #A5ABAF;
   padding: 10px 0;
   border-bottom: 2px solid #81868a;
@@ -126,6 +126,13 @@ a:active {
 
 /* Layout styling */
 
+#hero {
+  background-color: #A5ABAF;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
 #hero h1{
   text-align: center;
   padding-top: 15px;
@@ -171,6 +178,10 @@ a:active {
 
 .skip {
   column-count: 2;
+}
+
+nav {
+  display: inline-block;
 }
 
 nav > ul {
