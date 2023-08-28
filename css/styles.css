@@ -7,6 +7,12 @@ Fourth Color (Soft Green): #E3E9C2;
 Fifth Color (Soft Yellow): #F9FBB2;
 */
 
+header {
+  background-color: #A5ABAF;
+  padding: 5px;
+  border-bottom: 2px solid #81868a;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Red Hat Text', sans-serif;
