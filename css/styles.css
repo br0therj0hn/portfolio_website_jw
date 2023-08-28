@@ -126,7 +126,7 @@ a:active {
 /* Layout styling */
 
 .container {
-  margin: 16px;
+  margin: 0 16px;
 }
 
 .container.hero {
