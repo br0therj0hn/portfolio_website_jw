@@ -219,6 +219,16 @@ nav > ul > li > a:active {
   color: #874c2d;
 }
 
+footer ul li {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+
+footer ul {
+  padding-inline: 0;
+}
+
 /* General Buttons */
 
 .button {
