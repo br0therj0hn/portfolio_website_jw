@@ -305,6 +305,7 @@ Extra large screens of 1441px and up; for all larger screen sizes */
 
   [class*="col-"] {
     float: left;
+    padding: 10px 0;
   }
 }
 
