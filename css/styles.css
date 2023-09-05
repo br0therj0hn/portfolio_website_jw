@@ -307,12 +307,20 @@ Extra large screens of 1441px and up; for all larger screen sizes */
     float: left;
     padding: 10px 0;
   }
+
+  
 }
 
 
 
 @media only screen and (min-width: 1024px) {
-  .container {
+  .container{
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 10px 0;
+  } {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -320,4 +328,14 @@ Extra large screens of 1441px and up; for all larger screen sizes */
 }
 
 @media only screen and (min-width: 1440px) {
+  .container {
+  }
+    [class*="col-"] {
+      float: left;
+      padding: 10px 0;
+    }
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
