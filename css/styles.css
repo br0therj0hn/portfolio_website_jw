@@ -127,7 +127,7 @@ a:active {
 /* Layout styling */
 
 main {
-  padding-top: 163px;
+  padding-top: 165px;
   padding-bottom: 20px;
 }
 
@@ -310,7 +310,6 @@ Extra large screens of 1441px and up; for all larger screen sizes */
     float: left;
     padding: 10px 0;
   }
-
   
 }
 
