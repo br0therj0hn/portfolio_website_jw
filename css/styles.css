@@ -195,6 +195,9 @@ main {
   column-count: 2;
 }
 
+
+/* Nagivation */
+
 nav {
   display: inline-block;
 }
@@ -314,7 +317,7 @@ Extra large screens of 1441px and up; for all larger screen sizes */
 
 
 @media only screen and (min-width: 1024px) {
-  .container{
+  .container {
   }
 
   [class*="col-"] {
