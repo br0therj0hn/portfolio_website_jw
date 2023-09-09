@@ -194,6 +194,7 @@ main {
 .skip {
   column-count: 2;
 }
+
 @keyframes color-change {
 from {fill: #edc655;}
 to {fill: #f76414;}
