@@ -45,27 +45,27 @@ h5 {
 }
 
 h1 {
-  font-size: 3vw;
+  font-size: 20px;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 2vw;
+  font-size: 16px;
   font-weight: 500;
 }
 
 h3 {
-  font-size: 2vw;
+  font-size: 16px;
   font-weight: 400;
 }
 
 h4 {
-  font-size: 1vw;
+  font-size: 10px;
   font-weight: 400;
 }
 
 h5 {
-  font-size: 1vw;
+  font-size: 10px;
   font-weight: 500;
 }
 
@@ -79,7 +79,7 @@ div {
 
 p {
   color: #2a2a2a;
-  font-size: 1.5vw;
+  font-size: 12px;
 }
 
 img {
@@ -97,7 +97,7 @@ iframe {
 a {
   color: blue;
   text-decoration: none;
-  font-size: 1.5vw;
+  font-size: 10px;
   /* No underlining */
 }
 
@@ -281,7 +281,7 @@ footer ul {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #A5ABAF;
   color: #2a2a2a; /* needed to override the default link color */
-  font-size: 1.5vw;
+  font-size: 12px;
   font-weight: 400;
   padding: 5px 10px;
   border-radius: 5px;
@@ -336,6 +336,24 @@ Extra large screens of 1441px and up; for all larger screen sizes */
   }
 
   .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 10px 0;
+  }
+
+  .col-lg-7 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 10px 0;
+  }
+
+  .col-lg-5 {
     width: 50%;
   }
 
