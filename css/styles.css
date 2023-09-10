@@ -172,7 +172,7 @@ main {
   text-align: center;
 }
 
-#work .row {
+#work.row {
   margin: 25px 0;
 }
 
