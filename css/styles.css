@@ -405,7 +405,6 @@ font-size: 26px;
 
   [class*="col-"] {
     float: left;
-    padding: 10px 10px;
   }
 
   .col-lg-5 {
@@ -414,7 +413,7 @@ font-size: 26px;
 
   [class*="col-"] {
     float: left;
-    padding: 10px 10px;
+    
   }
 }
 
