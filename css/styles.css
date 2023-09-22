@@ -120,7 +120,7 @@ a:active {
 /* custom logo sizing */
 
 .logo {
-  max-width: 250px;
+  max-width: 150px;
   text-align: center;
 }
 
@@ -390,6 +390,10 @@ font-size: 26px;
   }
   .button {
     font-size: 16px;
+  }
+
+  .logo {
+    min-width: 641px;
   }
 
 
