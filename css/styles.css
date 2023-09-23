@@ -11,7 +11,6 @@ header {
   background-color: #A5ABAF;
   padding: 10px 0;
   box-shadow: -5px 15px 30px rgba(0, 0, 0, 0.3);
-  text-align: center;
   position: fixed;
   width: 100%;
 }
@@ -241,8 +240,19 @@ nav > ul {
   padding: 0;
 }
 
-nav > ul > li {
-  display: inline-block;
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
 }
 
 nav > ul > li > a {
@@ -354,6 +364,20 @@ a {
     width: auto;
     float: right;
     margin-top: 4px;
+  }
+
+  
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
   .col-md-6 {
