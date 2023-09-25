@@ -244,10 +244,6 @@ nav > ul {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
-  position: relative;
-}
-
 .navtoggle li .icon {
   position: absolute;
   right: 0;
@@ -370,19 +366,12 @@ a {
     margin-top: 4px;
   }
 
-  
+
 
   nav > ul > li {
     display: inline-block;
   }
 
-  .navtoggle li:not(:last-child) {
-    display: inline-block;
-  }
-
-  .navtoggle li:last-child {
-    display: none;
-  }
 
   .col-md-6 {
     width: 50%;
