@@ -240,6 +240,11 @@ nav > ul {
   padding: 0;
 }
 
+/* Hamburger Menu Stuff */
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
@@ -251,6 +256,7 @@ nav > ul {
   font-size: 20px;
 }
 
+/* Regular Navigation Stuff */
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
@@ -370,6 +376,14 @@ a {
 
   nav > ul > li {
     display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
 
