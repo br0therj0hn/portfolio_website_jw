@@ -126,7 +126,7 @@ a:active {
 /* Layout styling */
 
 main {
-  padding-top: 165px;
+  padding-top: 100px;
   padding-bottom: 20px;
 }
 
@@ -335,6 +335,10 @@ Large screen sizes up to 1440px; including large tablets and most laptops/deskto
 Extra large screens of 1441px and up; for all larger screen sizes */
 
 @media only screen and (min-width: 640px) {
+main {
+  padding-top: 135px;
+}
+
 h1 {
   font-size: 24px;
 }
@@ -393,6 +397,11 @@ a {
 
 
 @media only screen and (min-width: 1024px) {
+
+  main {
+    padding-top: 200px;
+  }
+
   h1 {
     font-size: 30px;
   }
@@ -417,7 +426,7 @@ font-size: 26px;
   }
 
   .logo {
-    min-width: 641px;
+    min-width: 320px;
   }
 
 
@@ -446,5 +455,9 @@ font-size: 26px;
 }
 
 @media only screen and (min-width: 1440px) {
+
+  .logo {
+    min-width: 641px;
+  }
 
 }
