@@ -231,13 +231,12 @@ to {fill: #f76414;}
 
 /* Nagivation */
 
-nav {
-  display: inline-block;
-}
+
 
 nav > ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 /* Hamburger Menu Stuff */
@@ -254,6 +253,19 @@ nav > ul {
   right: 0;
   top: 2px;
   font-size: 20px;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
 }
 
 /* Regular Navigation Stuff */
@@ -330,6 +342,10 @@ footer ul {
   color: #2a2a2a;
 }
 
+.navtoggle.responsive li  {
+  display: block;
+}
+
 
 /* Small screens up to 640px; including most mobile screen sizes
 Medium screens up to 1024px; including large mobile and most tablets
@@ -370,6 +386,10 @@ a {
     width: auto;
     float: right;
     margin-top: 4px;
+  }
+
+  nav > ul {
+    margin: 1em 0;
   }
 
 
