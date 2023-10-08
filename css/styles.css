@@ -283,12 +283,12 @@ nav > ul > li > a:visited {
 
 nav > ul > li > a:hover,
 nav > ul > li > a:focus {
-  color: blueviolet;
+  color: #5A159A;
   text-decoration: none;
 }
 
 nav > ul > li > a:active {
-  color: #874c2d;
+  color: #5E351F;
 }
 
 footer ul li {
