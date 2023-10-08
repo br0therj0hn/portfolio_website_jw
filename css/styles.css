@@ -94,7 +94,7 @@ iframe {
 
 
 a {
-  color: blue;
+  color: #0000D9;
   text-decoration: none;
   font-size: 10px;
   /* No underlining */
@@ -102,18 +102,18 @@ a {
 
 a:hover,
 a:focus {
-  color: purple;
+  color: #740074;
   text-decoration: underline;
 }
 
 a:visited {
   /* visited link */
-  color: blueviolet;
+  color: #5A159A;
 }
 
 a:active {
   /* selected link */
-  color: green;
+  color: #004B00;
 }
 
 /* custom logo sizing */
